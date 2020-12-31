@@ -11,8 +11,8 @@ $(document).ready(function(){
              email:true
             },
             Mobile:{
-				required:true,
-				minlength:10
+		required:true,
+		minlength:10
             },
             comment:{
                 required:true,
