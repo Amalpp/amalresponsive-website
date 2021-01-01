@@ -12,6 +12,7 @@ $(document).ready(function(){
             },
             Mobile:{
 		required:true,
+	        digit:true
 		minlength:10
             },
             comment:{
