@@ -19,6 +19,8 @@ $(document).ready(function(){
                 required:true,
                 minlength:6
             }
-        }   
+        }
+	messages: {
+                mobile_number: {required: "Please Enter Your Mobile Number",number:"Please enter numbers Only"}
     })
 })
