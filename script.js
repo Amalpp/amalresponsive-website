@@ -15,12 +15,14 @@ $(document).ready(function(){
 	        digit:true
 		minlength:10
             },
+		messages:{
+                mobile_number: {required: "Please Enter Your Mobile Number",number:"Please enter numbers Only"}
+	    },
             comment:{
                 required:true,
                 minlength:6
             }
         }
-	messages: {
-                mobile_number: {required: "Please Enter Your Mobile Number",number:"Please enter numbers Only"}
+	
     })
 })
