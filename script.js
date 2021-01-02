@@ -12,11 +12,13 @@ $(document).ready(function(){
             },
             Mobile:{
 		required:true,
-	        digit:true
-		minlength:10
-            },
-		messages:{
-                mobile_number: {required: "Please Enter Your Mobile Number",number:"Please enter numbers Only"}
+	        digit:true,
+		minlength=10
+	    },    
+	        messages:{
+                 Mobile: {required: "Please Enter Your Mobile Number",number:"Please enter numbers Only"}
+	    },
+		
 	    },
             comment:{
                 required:true,
